@@ -13,7 +13,7 @@ function popup(){
 
 function closePopup(){
     const popupContainer=document.getElementById("popupContainer");
-    if(popupContainer){
+    if(popupContainer){ 
         popupContainer.remove();
     }
 }
